@@ -1,4 +1,5 @@
 const express = require('express');
+// Terminal strin styling :: https://github.com/chalk/chalk
 const chalk = require('chalk');
 const debug = require('debug')('app');
 const morgan = require('morgan');
