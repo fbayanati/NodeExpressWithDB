@@ -1,0 +1,23 @@
+{
+  "name": "nodeexpressdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tional eslint cache",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Farhad",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "nodemon": "^1.19.1"
+  }
+}
