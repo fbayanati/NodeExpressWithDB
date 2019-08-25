@@ -2,7 +2,8 @@ const express = require('express');
 const chalk = require('chalk');   // Terminal strin styling :: https://github.com/chalk/chalk
 const debug = require('debug')('app');
 const morgan = require('morgan');   // morgan.js :: HTTP request logger middleware for node.js
-const bodyParser = require('body-parser');
+// body-parser :: Parse incoming request bodies in a middleware before your handlers, available under the req.body property.
+const bodyParser = require('body-parser');   // body-parser :: Node.js body parsing middleware
 
 let app = express();
 app.use( morgan('tiny') );
