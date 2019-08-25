@@ -1,8 +1,7 @@
 const express = require('express');
-// Terminal strin styling :: https://github.com/chalk/chalk
-const chalk = require('chalk');
+const chalk = require('chalk');   // Terminal strin styling :: https://github.com/chalk/chalk
 const debug = require('debug')('app');
-const morgan = require('morgan');
+const morgan = require('morgan');   // morgan.js :: HTTP request logger middleware for node.js
 const bodyParser = require('body-parser');
 
 let app = express();
